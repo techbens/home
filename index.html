@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>TECHBENS - Education & Scholarships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">TECHBENS</span> Education & Scholarships</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#scholarships">Scholarships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<h1>TECHBENS</h1>
-  
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to TECHBENS</h2>
+            <p>We are committed to providing quality online education and financial support to students through scholarships. Explore our mobile apps for interactive learning experiences.</p>
+        </section>
 
+        <section id="about">
+            <h2>About Us</h2>
+            <p>TECHBENS is dedicated to empowering students by offering top-notch online education. Our courses are tailored to meet various learning needs, making education accessible and engaging.</p>
+        </section>
 
-<p><a href="PRIVACY-POLICY.html">PRIVACY POLICY</a></p>
-<p><a href="terms-of-service.html">Terms of service</a></p>
+        <section id="scholarships">
+            <h2>Scholarships</h2>
+            <p>Understanding the financial challenges in education, TECHBENS offers scholarships to deserving students. These scholarships aim to support and encourage academic excellence.</p>
+        </section>
 
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Want to learn more about our programs and scholarships? Contact us at <a href="mailto:info@techbens.com">info@techbens.com</a>.</p>
+        </section>
+    </div>
 </body>
 </html>
