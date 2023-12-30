@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TECHBENS - Education & Scholarships</title>
+    <title>TECHBENS - Empowering Education</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -17,14 +16,14 @@
             overflow: hidden;
         }
         header {
-            background: #50b3a2;
-            color: white;
+            background: #4c2a85;
+            color: #fff;
             padding-top: 30px;
             min-height: 70px;
             border-bottom: #e8491d 3px solid;
         }
         header a {
-            color: #ffffff;
+            color: #fff;
             text-decoration: none;
             text-transform: uppercase;
             font-size: 16px;
@@ -51,13 +50,77 @@
             margin-top: 10px;
         }
         header .highlight, header .current a {
-            
+            color: white;
             font-weight: bold;
-            
         }
         header a:hover {
             color: #ffffff;
             font-weight: bold;
+        }
+        .banner {
+            background: url(img/banner.jpg) no-repeat center center;
+            width: 100%;
+            min-height: 300px;
+            text-align: center;
+            color: #fff;
+        }
+        .banner h1 {
+            padding-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+			color:black;
+        }
+        .banner p {
+            font-size: 20px;
+			color:black;
+        }
+        .main-container {
+            padding: 30px 0;
+        }
+        .main-container img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .main-container h2, .main-container h3 {
+            margin-top: 0;
+        }
+        .box {
+            float: left;
+            text-align: center;
+            width: 30%;
+            padding: 10px;
+        }
+        .box img {
+            width: 90px;
+            height: 90px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #e8491d;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+		/* Responsive styling */
+        @media only screen and (min-width: 600px) {
+            .container {
+                width: 80%;
+            }
+            header h1 {
+                font-size: 32px;
+            }
+            .banner h1 {
+                font-size: 40px;
+            }
+            .banner p {
+                font-size: 20px;
+            }
+            .main-container p {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
@@ -65,31 +128,33 @@
     <header>
         <div class="container">
             <div id="branding">
-                <h1><span class="highlight">TECHBENS</span> Education & Scholarships</h1>
+                <h1><span class="highlight">TECHBENS</span> Educational Welfare</h1>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <section id="home">
-            <h2>Welcome to TECHBENS</h2>
-            <p>We are committed to providing quality online education and financial support to students through scholarships. Explore our mobile apps for interactive learning experiences.</p>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>TECHBENS is dedicated to empowering students by offering top-notch online education. Our courses are tailored to meet various learning needs, making education accessible and engaging.</p>
-        </section>
-
-        <section id="scholarships">
-            <h2>Scholarships</h2>
-            <p>Understanding the financial challenges in education, TECHBENS offers scholarships to deserving students. These scholarships aim to support and encourage academic excellence.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Have questions? Want to learn more about our programs and scholarships? Contact us at <a href="mailto:techbens.com@gmail.com">techbens.com@gmail.com</a>.</p>
-        </section>
+    <div class="banner">
+        <div class="container">
+            <h1>Empowering Education Through Technology</h1>
+            <p>Providing Online Education and Financial Support for Learners Worldwide</p>
+        </div>
     </div>
+
+    <div class="main-container">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>TECHBENS is dedicated to offering accessible, quality online education and financial assistance through scholarships. We aim to empower learners from diverse backgrounds to achieve their educational goals.</p>
+
+            <h2>Our Mobile Learning Apps</h2>
+            <p>Explore our wide range of interactive educational apps, designed to make learning engaging and effective for students of all ages.</p>
+
+            <h2>Scholarship Programs</h2>
+            <p>We understand the financial challenges faced by students and offer scholarships to aid their educational journey. Our scholarships are designed to support academic excellence and open doors to new opportunities.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us at <a href="mailto:techbens.com@gmail.com">techbens.com@gmail.com</a></p>
+    </footer>
 </body>
 </html>
